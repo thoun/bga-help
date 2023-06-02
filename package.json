@@ -1,0 +1,19 @@
+{
+  "name": "bga-help",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bga-help.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:scss": "sass --no-source-map src/bga-help.scss bga-help.css",
+    "doc": "typedoc --out docs --readme none ./src/**.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@microsoft/tsdoc": "0.14.2",
+    "sass": "^1.62.1",
+    "typedoc": "^0.24.7",
+    "typescript": "^5.0.4"
+  }
+}

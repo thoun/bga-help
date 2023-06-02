@@ -1,0 +1,33 @@
+html {
+    background: url(https://x.boardgamearena.net/data/themereleases/221026-1000/img/layout/back-main.jpg), #f2f2f2;
+}
+
+body {
+    margin: 0;
+}
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#left-side {
+    width: 100vh;
+    height: 100vh;
+}
+
+.color-help-folded-content {
+    background: url('https://x.boardgamearena.net/data/themereleases/current/games/seasaltpaper/230601-1821/img/logo-coloradd.svg') #dfe8e8 center no-repeat;
+    background-size: contain;
+}
+
+.color-help-unfolded-content {
+    font-style: italic;
+    background: #dfe8e8;
+}
+
+#help-popin h1 {
+    color: #5890a9;
+    font-size: 18px;
+    margin: 8px 0;
+}
